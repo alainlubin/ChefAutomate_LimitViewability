@@ -1,9 +1,13 @@
-In your local machine, ssh to your A2 instance:
-`ssh ec2-user@someIP -i your_key`
-`sudo chef-automate iam upgrade-to-v2`
+####Warm up:
 
-In Automate:
-- Delete all Legacy policies
+Upgrade your Chef Automate instance to use IAM_v2
+- ssh to your A2 instance: `ssh ec2-user@someIP -i your_key`
+- Upgrade you Chef Automate instance to use IAM_v2: `sudo chef-automate iam upgrade-to-v2`
+
+Within the A2 Dashboard:
+- Go to Settings -> Policies -> Manually delete all Legacy policies
+
+
 - Create a project called `CISO project`
 - Create a new team: `leadership`, that is attached to `CISO project`
 - Create a new user: `ciso`
