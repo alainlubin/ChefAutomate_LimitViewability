@@ -19,14 +19,14 @@ For this portion, I will be using postman. That said, you can use whatever your 
 1. Test Connectivity:   
     - Set Request: `Request: GET` > `URL: your_a2_url/api/iam/v2/roles`  
     - Set Headers: `Headers`>`key=api-token`>`value=paste_your_token_here`  
-    - Press `Send` 
+    - Press `Send`  
 <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/postman-testconnection.png" width="600" height="200"></kbd>  
-    - You should get a `Response` that looks similar to:
+    - You should get a `Response` that looks similar to:  
 <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/postman-getresponse.png" width="400" height="200"></kbd>  
 
 2. Create Role:  
     - Set Request to `POST` > `URL: your_a2_url/api/iam/v2/roles`  
-    - Set your changes: `Body`>`raw`> Paste the following:
+    - Set your changes: `Body` > `raw` > Paste the following:
     ```
     {
       "actions": [
@@ -37,8 +37,8 @@ For this portion, I will be using postman. That said, you can use whatever your 
       "name": "Limited View"
     }
     ```
-    - Press `Send`
-<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-api-create-role.png" width="400" height="200"></kbd>  
+    - Press `Send`  
+<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/postman-api-createrole.png" width="400" height="200"></kbd>  
 
 
 
