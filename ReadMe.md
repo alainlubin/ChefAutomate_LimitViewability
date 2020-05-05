@@ -20,13 +20,13 @@ If this is a previously used A2 box, you will have to delete all `Legacy` polici
 #### Setup 
 
 Within A2:
-- Create Project:`Settings` > `Projects` > `Create Project` > name: `CISO Project` > `Create Project`  
+1. Create Project:`Settings` > `Projects` > `Create Project` > name: `CISO Project` > `Create Project`  
 <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-projects.png" width="380" height="190">  <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-projects-create.png" width="380" height="190">    
-- Create Team:`Settings`>`Teams`>`Create Team`> name: `Compliance Leadership`> Assign `CISO Project`>`Create Team`  
+2. Create Team:`Settings`>`Teams`>`Create Team`> name: `Compliance Leadership`> Assign `CISO Project`>`Create Team`  
 <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-teams.png" width="380" height="190">  <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-teams-create.png" width="380" height="190">    
-- Modify Team w/ new user: Access `Compliance Leadership` team >`Add Users`>`Create User`
-<img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-access-project.png" width="380" height="190">  <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-addusers.png" width="200" height="100">   <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-createuser.png" width="200" height="100">    
-- Create User: Name: `CISO` + password > `Create User`> Checkmark `CISO` > `Add User`
+3. Modify New Team: Access `Compliance Leadership` team >`Add Users`>`Create User`
+<img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-access-project.png" width="300" height="140">  <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-addusers.png" width="250" height="120">   <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-createuser.png" width="250" height="120">    
+4. Create User: Name: `CISO` + password > `Create User`> Checkmark `CISO` > `Add User`
 <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-teams.png" width="380" height="190">  <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-teams-create.png" width="380" height="190">    
   
   
