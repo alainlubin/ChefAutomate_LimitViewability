@@ -38,7 +38,7 @@ For this portion, I will be using postman. That said, you can use whatever your 
     }
     ```
     - Press `Send`  
-<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/postman-api-createrole.png" width="480" height="225"></kbd>  
+<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/postman-api-createrole.png" width="480" height="210"></kbd>  
 
 3. Create Policies:  
     - Set Request to `POST` > `URL: your_a2_url/apis/iam/v2/policies`  
