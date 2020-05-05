@@ -11,7 +11,7 @@ The road so far:
 
 
 ### Let's checkout our final view:
-- Login to A2 as `ciso`
-<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-newpolicy-member.png" width="150" height="200"></kbd>
-- Final view only consists of `CISO Project` and the `Compliance` tab
-<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-cisoview.png" width="450" height="225"></kbd>
+- Login to A2 as `ciso`  
+<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-newpolicy-member.png" width="200" height="200"></kbd>
+- Final view only consists of `CISO Project` and the `Compliance` tab  
+<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-cisoview.png" width="600" height="300"></kbd>
