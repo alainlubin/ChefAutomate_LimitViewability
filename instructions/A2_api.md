@@ -6,7 +6,8 @@ For this portion, I will be using postman. That said, you can use whatever your 
 1. Create A2 Token: `Settings`>`API Tokens`>`Create Token`>  
                     `name: Limit View`+`policies: Administrator`+`projects: (unassigned)`>`Create Token`  
 <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-createtoken.png" width="380" height="190"></kbd>→<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-createtoken2.png" width="380" height="190"></kbd>   
-2. Copy Token: 
+2. Copy Token: Next to `Limit View` click on the 3 dots > `Copy Token`
+<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-copytokent.png" width="600" height="200"></kbd>
 
 
 
