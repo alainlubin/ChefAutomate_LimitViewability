@@ -7,7 +7,7 @@ Real environments could have 100s or 1000s of nodes reporting back their complia
 Certain Teams might only be interested in seeing specific prod-level data.   
   
 We will be using the `Environment` data as a filter.  
-Since there is no `prod` in this example, I will use `dev-rhel` instead.  
+Since there is no `prod` environments in my current instance, we will use `dev-rhel`.  
 
 
 ### Filtering data to your Project:
@@ -25,8 +25,8 @@ Since there is no `prod` in this example, I will use `dev-rhel` instead.
 
 
 ### Takeaways:
-- You should now now how to create rules based on conditional
-- This was a simplistic example, but you can use this logic to shape your A2 Project instance: create more conditional rules
+- You should now know how to filter Projects based on rules
+- This was a simplistic example, but you can use this logic to shape your A2 Projecs
     - A Project can have several rules
     - A Rule can have several conditions
 - Project view is great, but [next we need to limit access so that users only see this view](./instructions/A2_api.md)
