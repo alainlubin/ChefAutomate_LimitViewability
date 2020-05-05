@@ -27,7 +27,7 @@ Within A2:
 3. Modify New Team: Access `Compliance Leadership` team >`Add Users`>`Create User`
 <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-access-project.png" width="300" height="140">  → <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-addusers.png" width="250" height="120">  → <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-createuser.png" width="250" height="120">  
 4. Create User: name: `CISO` + password > `Create User`> Checkmark `CISO` > `Add User`
-<img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-createcisouser.png" width="380" height="190">  → <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-addcisototeam.png" width="380" height="190">    
+<img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-createcisouser.png" width="280" height="190">  → <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-addcisototeam.png" width="380" height="190">    
   
   
 In order to modify the Roles and Policies via API, we need to create a token:
