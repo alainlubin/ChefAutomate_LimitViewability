@@ -14,4 +14,4 @@ The road so far:
 - Login to A2 as `ciso`  
 <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-newpolicy-member.png" width="250" height="200"></kbd>
 - Final view only consists of `CISO Project` and the `Compliance` tab  
-<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-cisoview.png" width="600" height="300"></kbd>
+<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-cisoview.png" width="700" height="350"></kbd>
