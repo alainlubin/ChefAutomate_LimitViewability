@@ -62,7 +62,7 @@ For this portion, I will be using postman. That said, you can use whatever your 
     - Press `Send`  
 <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/postman-api-createpolicy.png" width="400" height="225"></kbd>  
     - **Note:** we used `limited-view-role` and referenced the `ciso-project` when creating the new Policy
-    - You can see these now appear within A2:
+    - You can see these now appear within A2:  
 <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-newroles.png" width="380" height="190"></kbd>→<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-newpolicies.png" width="380" height="190"></kbd>   
 
 
