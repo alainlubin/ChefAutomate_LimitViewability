@@ -62,60 +62,14 @@ For this portion, I will be using postman. That said, you can use whatever your 
     - Press `Send`  
 <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/postman-api-createpolicy.png" width="400" height="225"></kbd>  
     - **Note:** we used `limited-view-role` and referenced the `ciso-project` when creating the new Policy
-    - You can see these now appear within A2
+    - You can see these now appear within A2:
+<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-newroles.png" width="380" height="190"></kbd>→<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-newpolicies.png" width="380" height="190"></kbd>   
 
 
 
 ### Takeaways:
-  - If you've never used APIs, now you know how to get information
+  - If you've never worked with APIs, now you know how.
     - You should be able to GET information, and POST information into A2
     - You can use API information and manipualate the data through most programming languages
   - Last step: [Let's attach the policy to the team and user](./A2_finalsetup)
 
-
-Creating a Custom Role:
-- `POST` the following to this URL: `https://aut-automate-server/apis/iam/v2/roles`
-```
-{
-  "actions": [
-    "compliance:*:get",
-    "compliance:*:list"
-  ],
-  "id": "limited-view",
-  "name": "Limited View"
-}
-```
-
-Creating a Custom Policy:
-- `POST` the following to this URL: `https://aut-automate-server/apis/iam/v2/policies`
-```
-{
-  "id": "limited-viewer-policy",
-  "name": "Limited View Policy",
-  "projects": ["ciso"],
-  "statements": [
-    {
-      "effect": "ALLOW",
-      "role": "limited-view",
-      "projects": [
-        "ciso"
-      ]
-    }
-  ]
-}
-```
-
-
-
-
-
-Notice that the Role was called `limited-view` and we are using that role within the new `limited-viewer-policy`
-
-- In Automate, go to policies and select your new policy `limited view`
-- `Add members` -> `leadership`
-
-- Edit `ciso` project to limit view
-
-for more information: 
-- https://automate.chef.io/docs/iam-v2-guide/
-- https://automate.chef.io/docs/api/#operation/UpdateRole
