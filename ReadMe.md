@@ -11,9 +11,11 @@
 2. [Modifying Project View](./instructions/A2_projectview.md)
 3. [API connectivity](./instructions/A2_api.md)
 4. [Final A2 Setup](.instructions//A2_finalsetup.md)
-
-
-
+  
+  
+Result:
+- Default View - Compliance Only View
+<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-defaultview.png" width="380" height="190"></kbd>→<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-cisoview.png" width="380" height="190"></kbd>  
 
 For more information on the A2 API, please go to: 
 - https://automate.chef.io/docs/iam-v2-guide/
