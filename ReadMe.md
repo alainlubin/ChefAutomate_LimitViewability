@@ -1,9 +1,11 @@
+### Summary: Modify the A2 default view to only allow for specific information
+
 This exercise runs through a couple objectives:
   - Become Familiarized with Chef Automate
   - Learn about the new IAM/RBAC capabilities within A2
   - Interact with API requests using Postman 
 
-#### Warm up:
+### Warm up:
 
 Upgrade your Chef Automate instance to use IAM_v2
 - ssh to your A2 instance: `ssh ec2-user@someIP -i your_key`
