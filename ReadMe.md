@@ -1,6 +1,7 @@
 ### Summary: Modify the A2 default view to only allow for specific information
+ - For this exercise, we will limit viewability to only see Compliance (CISO-only view), but it provides the lay of the land on how to customize whatever you want.
 
-This exercise runs through a couple objectives:
+### This exercise runs through the following objectives:
   - Become Familiarized with Chef Automate
   - Learn about the new IAM/RBAC capabilities within A2
   - Interact with API requests using Postman 
@@ -11,12 +12,16 @@ Upgrade your Chef Automate instance to use IAM_v2
 - ssh to your A2 instance: `ssh ec2-user@someIP -i your_key`
 - Upgrade you Chef Automate instance to use IAM_v2: `sudo chef-automate iam upgrade-to-v2`
    <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/ssh-automate.png" width="450" height="225">
+  
+If this is a previously used A2 box, you will have to delete all `Legacy` policies.
+- Go to `Settings` -> `Policies` -> click on the 3 dots ->  `Delete Policy` 
+   <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-delete-legacy-policies.png" width="450" height="225">  
+   
+#### Setup 
 
-If this is a previously used A2 Dashboard you have Within the A2 Dashboard:A2
-- Go to `Settings` -> `Policies` -> Manually delete all Legacy policies by clicking the 3 dots -> `Delete Policy` 
-   <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-delete-legacy-policies.png" width="450" height="225">
-Setting up the project and view within A2 (For this example we are creating a Compliance only - CISO view):
-- Go to `Settings` -> `Project` -> Create a new project called `CISO project`
+Within A2:
+- Go to `Settings` -> `Projects` -> `Create Project` -> call it `CISO Project`
+<img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-projects.png" width="450" height="225">  <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-projects-create.png" width="450" height="225">    
 - Within `Settings` -> `Teams` -> Create a new team: `leadership` and attach the `CISO project` to it.
 - Create a new user: `ciso`
 - Add user `ciso` to team `leadership`
