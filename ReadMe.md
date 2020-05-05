@@ -21,7 +21,7 @@ If this is a previously used A2 box, you will have to delete all `Legacy` polici
 
 Within A2:
 - Go to `Settings` -> `Projects` -> `Create Project` -> call it `CISO Project`
-<img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-projects.png" width="450" height="225">  <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-projects-create.png" width="450" height="225">    
+<img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-projects.png" width="380" height="190">  <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-projects-create.png" width="380" height="190">    
 - Within `Settings` -> `Teams` -> Create a new team: `leadership` and attach the `CISO project` to it.
 - Create a new user: `ciso`
 - Add user `ciso` to team `leadership`
