@@ -1,12 +1,12 @@
 ### Summary: Modify the A2 default view to only allow for specific information
- - For this exercise, we will limit viewability to only see Compliance (CISO-only view), but it provides the lay of the land on how to customize whatever you want.
+ - For this exercise, we will limit viewability to only see Compliance (CISO-only view), but it provides the lay of the land on how to customize it to your own liking.
 
 ### This exercise runs through the following objectives:
   - Become Familiarized with Chef Automate
   - Learn about the new IAM/RBAC capabilities within A2
   - Interact with API requests using Postman 
 
-### These instructions will be tackled in x different setups:
+### These instructions will be tackled in 4 different steps:
 1. [Chef Automate Setup](./instructions/A2_setup.md)
 2. [Modifying Project View](./instructions/A2_projectview.md)
 3. [API connectivity](./instructions/A2_api.md)
