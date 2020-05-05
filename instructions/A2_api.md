@@ -3,6 +3,7 @@ This requires to be done through the A2 API.
 
 For this portion, I will be using postman. That said, you can use whatever your preferred API Dev Tool is.  
 
+### Create and Copy Chef Automate Token
 1. Create A2 Token: `Settings`>`API Tokens`>`Create Token`>  
                     `name: Limit View`+`policies: Administrator`+`projects: (unassigned)`>`Create Token`  
 <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-createtoken.png" width="380" height="190"></kbd>→<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-createtoken2.png" width="380" height="190"></kbd>   
@@ -11,7 +12,7 @@ For this portion, I will be using postman. That said, you can use whatever your 
 
 
 
-Within Postman:
+### Creating Roles and Policies through the A2 API (... & Postman):
 0. Optional: If you are using a local A2 box, then `Settings`>`General`>`uncheck SSL cert verification` 
 1. Test Connectivity:   
     - Set Request: `Request: GET` > `URL: your_a2_url/api/iam/v2/roles`  
