@@ -1,3 +1,16 @@
+In order to give custom access to the `Compliance Leadership` team, we need to modify Roles and Policies.  
+This requires to be done through the A2 API.  
+
+For this portion, I will be using postman. That said, you can use whatever your preferred API Dev Tool is.  
+
+1. Create A2 Token: `Settings`>`API Tokens`>`Create Token`>`
+                    `name: Limit View`+`policies: Administrator`+`projects: (unassigned)`>`Create Token`
+<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-createtoken.png" width="380" height="190"></kbd>→<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-createtoken2.png" width="380" height="190"></kbd>  
+2. Copy Token: 
+
+
+
+
 In order to modify the Roles and Policies via API, we need to create a token:
 - Within `Settings`, go to `API tokens` -> `Create` -> Give it an [API_NAME], I'm calling `api-token` for now.
     - Click on the 3 dots to the right of you [API_NAME], and click on `Copy Token`
