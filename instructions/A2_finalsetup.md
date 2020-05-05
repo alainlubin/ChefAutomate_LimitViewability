@@ -1,6 +1,13 @@
 The road so far:
-- We have created
-- We have used Postman and the A2 API to create custom Policies and Roles
+- We have upgraded Chef Automate to API_v2
+- We have created a new team, a new user, and a project
+    - The `compliance-leadership` team gets the `ciso-project` view
+    - The `ciso` user is part of `compliance-leadership` team
+    - If a new a user needs this view, then we can just add them to the same team.
+- We have used Postman to interact with the A2 API 
+    - Familiarized ourselves w/ API Dev tools
+    - Utilzied API token for GET and POST requests
+    - Created custom Policies and custom Roles
 
 
 ### Attaching the Team to your new Policy

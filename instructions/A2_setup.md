@@ -10,7 +10,7 @@ If this is a previously used A2 box, you will have to delete all `Legacy` polici
 - `Settings`>`Policies`>click on the 3 dots>`Delete Policy`   
    <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-delete-legacy-policies.png" width="450" height="225"></kbd>  
    
-#### Setup: 
+### Setup: 
 
 Within A2:
 1. Create Project:`Settings` > `Projects` > `Create Project` > name: `CISO Project` > `Create Project`  
@@ -24,7 +24,7 @@ Within A2:
   
   
 
-#### Takeaways:
+### Takeaways:
 - You've created a brand new team which contains a new user and is associated with you new CISO Project  
    - You could log in as the new user (CISO), but right now he has no permissions.
    - If you ever want to give more people access to this view, you simply add more users to the `Compliance Leadership` Team
