@@ -15,9 +15,9 @@ Upgrade your Chef Automate instance to use IAM_v2
   
 If this is a previously used A2 box, you will have to delete all `Legacy` policies.
 - `Settings`>`Policies`>click on the 3 dots>`Delete Policy`   
-   <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-delete-legacy-policies.png" width="450" height="225">  
+   <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-delete-legacy-policies.png" width="450" height="225"></kbd>  
    
-#### Setup 
+#### Setup: 
 
 Within A2:
 1. Create Project:`Settings` > `Projects` > `Create Project` > name: `CISO Project` > `Create Project`  
