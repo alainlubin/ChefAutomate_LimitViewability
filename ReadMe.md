@@ -24,9 +24,12 @@ Within A2:
 <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-projects.png" width="380" height="190">  <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-projects-create.png" width="380" height="190">    
 - Create Team:`Settings`>`Teams`>`Create Team`> name: `Compliance Leadership`> Assign `CISO Project`>`Create Team`  
 <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-teams.png" width="380" height="190">  <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-teams-create.png" width="380" height="190">    
-- Create a new user: `ciso`
-- Add user `ciso` to team `leadership`
-
+- Modify Team w/ new user: Access `Compliance Leadership` team >`Add Users`>`Create User`
+<img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-access-project.png" width="380" height="190">  <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-addusers.png" width="200" height="100">   <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-teams-createuser.png" width="200" height="100">    
+- Create User: Name: `CISO` + password > `Create User`> Checkmark `CISO` > `Add User`
+<img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-teams.png" width="380" height="190">  <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-teams-create.png" width="380" height="190">    
+  
+  
 In order to modify the Roles and Policies via API, we need to create a token:
 - Within `Settings`, go to `API tokens` -> `Create` -> Give it an [API_NAME], I'm calling `api-token` for now.
     - Click on the 3 dots to the right of you [API_NAME], and click on `Copy Token`
