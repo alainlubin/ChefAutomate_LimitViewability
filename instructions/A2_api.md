@@ -71,5 +71,5 @@ For this portion, I will be using postman. That said, you can use whatever your 
   - If you've never worked with APIs, now you know how.
     - You should be able to GET information, and POST information into A2
     - You can use API information and manipualate the data through most programming languages
-  - Last step: [Let's attach the policy to the team and user](./A2_finalsetup)
+  - Last step: [Let's attach the policy to the team and user](./A2_finalsetup.md)
 
