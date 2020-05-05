@@ -14,15 +14,15 @@ Upgrade your Chef Automate instance to use IAM_v2
    <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/ssh-automate.png" width="450" height="225">
   
 If this is a previously used A2 box, you will have to delete all `Legacy` policies.
-- `Settings` -> `Policies` -> click on the 3 dots ->  `Delete Policy` 
+- `Settings`>`Policies`>click on the 3 dots>`Delete Policy` 
    <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-delete-legacy-policies.png" width="450" height="225">  
    
 #### Setup 
 
 Within A2:
-- Create a Project: `Settings` -> `Projects` -> `Create Project` -> call it `CISO Project` -> `Create Project`
+- Create a Project: `Settings`>`Projects`>`Create Project`>call it `CISO Project`>`Create Project`
 <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-projects.png" width="380" height="190">  <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-projects-create.png" width="380" height="190">    
-- Create a Team: `Settings` -> `Teams` -> `Create Team` -> call it `Compliance Leadership` -> Assign `CISO Project` -> `Create Team`
+- Create a Team: `Settings` > `Teams` > `Create Team` > call it `Compliance Leadership` > Assign `CISO Project` > `Create Team`
 <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-teams.png" width="380" height="190">  <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-settings-teams-create.png" width="380" height="190">    
 - Create a new user: `ciso`
 - Add user `ciso` to team `leadership`
