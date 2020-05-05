@@ -8,9 +8,9 @@
 
 ### These instructions will be tackled in x different setups:
 1. [Chef Automate Setup](./A2_setup.md)
-2. [Modifying Project View] (./A2_projectview.md)
-3. [API connectivity] (./A2_api.md)
-4. [Final A2 Setup] (./A2_finalsetup.md)
+2. [Modifying Project View](./A2_projectview.md)
+3. [API connectivity](./A2_api.md)
+4. [Final A2 Setup](./A2_finalsetup.md)
 
 
 
