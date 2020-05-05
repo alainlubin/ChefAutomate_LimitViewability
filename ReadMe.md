@@ -14,7 +14,7 @@
   
   
 Result:  
-- Default View → Compliance Only View  
+- Default View → Filtered Compliance Only View  
 <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-defaultview.png" width="380" height="190"></kbd>→<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-cisoview.png" width="380" height="190"></kbd>  
 
 For more information on the A2 API, please go to: 

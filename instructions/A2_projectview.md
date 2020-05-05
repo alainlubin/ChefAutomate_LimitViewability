@@ -1,7 +1,7 @@
 ### Default view:
-My current A2 instance has 10 targets reporting their CIS_level_1 compliance:
-    - 5 Rhel7 
-    - 5 Win2016
+My current A2 instance has 10 targets reporting their CIS_level_1 compliance:  
+    - 5 Rhel7    
+    - 5 Win2016   
 <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-defaultview1.png" width="380" height="190"></kbd>→<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-defaultview2.png" width="380" height="190"></kbd>   
 Real environments could have 100s or 1000s of nodes reporting back their compliance information.  
 Certain Teams might only be interested in seeing specific prod-level data.   
