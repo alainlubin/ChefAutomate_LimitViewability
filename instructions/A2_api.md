@@ -61,17 +61,17 @@ For this portion, I will be using postman. That said, you can use whatever your 
     ```
     - Press `Send`  
 <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/postman-api-createpolicy.png" width="400" height="225"></kbd>  
-    - **Note:** we used `limited-view-role` and reference the `ciso-project` we created earlier in the new Policy
+    - **Note:** we used `limited-view-role` and referenced the `ciso-project` when creating the new Policy
     - You can see these now appear within A2
 
 
 
+### Takeaways:
+  - If you've never used APIs, now you know how to get information
+    - You should be able to GET information, and POST information into A2
+    - You can use API information and manipualate the data through most programming languages
+  - Last step: [Let's attach the policy to the team and user](./A2_finalsetup)
 
-
-Using Postman (or your preferred API Dev tool):
-- Download postman: https://www.postman.com/downloads/
-- If you are using a local A2 Instance, then go to `Settings` -> `General` -> `uncheck ssl verification`
-- In Postman, go to `Headers`, name header `api-token`, and paste the content of the token in `blank`.
 
 Creating a Custom Role:
 - `POST` the following to this URL: `https://aut-automate-server/apis/iam/v2/roles`
@@ -104,6 +104,8 @@ Creating a Custom Policy:
   ]
 }
 ```
+
+
 
 
 
