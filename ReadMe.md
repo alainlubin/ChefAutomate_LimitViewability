@@ -11,7 +11,7 @@
 Upgrade your Chef Automate instance to use IAM_v2
 - ssh to your A2 instance: `ssh ec2-user@someIP -i your_key`
 - Upgrade you Chef Automate instance to use IAM_v2: `sudo chef-automate iam upgrade-to-v2`
-   <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/ssh-automate.png" width="450" height="225">
+   <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/ssh-automate.png" width="450" height="225"></kbd>
   
 If this is a previously used A2 box, you will have to delete all `Legacy` policies.
 - `Settings`>`Policies`>click on the 3 dots>`Delete Policy`   
