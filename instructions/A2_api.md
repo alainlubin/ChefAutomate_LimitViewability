@@ -25,21 +25,45 @@ For this portion, I will be using postman. That said, you can use whatever your 
 <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/postman-getresponse.png" width="400" height="200"></kbd>  
 
 2. Create Role:  
-    - Set Request to `POST` > `URL: your_a2_url/api/iam/v2/roles`  
-    - Set your changes: `Body` > `raw` > Paste the following:
+    - Set Request to `POST` > `URL: your_a2_url/apis/iam/v2/roles`  
+    - Set your changes: `Body` > `raw` > Paste the following: (Get more info on API: https://automate.chef.io/docs/api/)
     ```
     {
       "actions": [
         "compliance:*:get",
         "compliance:*:list"
       ],
-      "id": "limited-view",
-      "name": "Limited View"
+      "id": "limited-view-role",
+      "name": "Limited View Role"
     }
     ```
     - Press `Send`  
-<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/postman-api-createrole.png" width="400" height="200"></kbd>  
+<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/postman-api-createrole.png" width="400" height="225"></kbd>  
 
+3. Create Policies:  
+    - Set Request to `POST` > `URL: your_a2_url/apis/iam/v2/policies`  
+    - Set your changes: `Body` > `raw` > Paste the following: (Get more info on API: https://automate.chef.io/docs/api/)
+    ```
+    {
+      "id": "limited-viewer-policy",
+      "name": "Limited View Policy",
+      "projects": ["ciso-project"],
+      "statements": [
+        {
+          "effect": "ALLOW",
+          "role": "limited-view-role",
+          "projects": [
+            "ciso-project"
+          ]
+        }
+      ]
+    }
+    ```
+    - Press `Send`  
+<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/postman-api-createpolicy.png" width="400" height="225"></kbd>  
+
+- Note: we use `limited-view-role` and reference the `ciso-project` we created earlier in the new Policy
+- You can see these now appear within A2
 
 
 
