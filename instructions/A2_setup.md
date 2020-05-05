@@ -23,8 +23,8 @@ Within A2:
   
   
 
-#### Takeaway:
+#### Takeaways:
 - You've created a brand new team which contains a new user and is associated with you new CISO Project  
    - You could log in as the new user (CISO), but right now he has no permissions.
    - If you ever want to give more people access to this view, you simply add more users to the `Compliance Leadership` Team
-   - Next we will configure the Project  
+   - [Next we will configure the Project](./instructions/A2_projectview.md)  
