@@ -29,4 +29,4 @@ Since there is no `prod` environments in my current instance, we will use `dev-r
 - This was a simplistic example, but you can use this logic to shape your A2 Projecs
     - A Project can have several rules
     - A Rule can have several conditions
-- Project view is great, but [next we need to limit access so that users only see this view](./instructions/A2_api.md)
+- Project view is great, but [next we need to limit access so that users only see this view](./A2_api.md)
