@@ -21,7 +21,7 @@ Since there is no `prod` environments in my current instance, we will use `dev-r
 <kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-filterbyproject.png" width="700" height="200"></kbd>
 
 - Filtered Project View: We are now filtering based on the `dev-rhel` environment so we only see 5 nodes:  
-<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-filteredview1.png" width="380" height="190"></kbd>→<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-filteredview2.png" width="380" height="190"></kbd>  
+<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-filteredview1.png" width="380" height="190"></kbd>+<kbd><img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-filteredview2.png" width="380" height="190"></kbd>  
 
 
 ### Takeaways:
