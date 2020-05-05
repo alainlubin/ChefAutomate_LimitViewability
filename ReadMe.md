@@ -5,16 +5,16 @@ This exercise runs through a couple objectives:
   - Learn about the new IAM/RBAC capabilities within A2
   - Interact with API requests using Postman 
 
-### Warm up:
+### Pre-Setup:
 
 Upgrade your Chef Automate instance to use IAM_v2
 - ssh to your A2 instance: `ssh ec2-user@someIP -i your_key`
 - Upgrade you Chef Automate instance to use IAM_v2: `sudo chef-automate iam upgrade-to-v2`
    <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/ssh-automate.png" width="450" height="225">
 
-Within the A2 Dashboard:
-- Go to `Settings` -> `Policies` -> Manually delete all Legacy policies
-
+If this is a previously used A2 Dashboard you have Within the A2 Dashboard:A2
+- Go to `Settings` -> `Policies` -> Manually delete all Legacy policies by clicking the 3 dots -> `Delete Policy` 
+   <img src="https://raw.githubusercontent.com/danf425/ChefAutomate_LimitViewability/master/images/a2-delete-legacy-policies.png" width="450" height="225">
 Setting up the project and view within A2 (For this example we are creating a Compliance only - CISO view):
 - Go to `Settings` -> `Project` -> Create a new project called `CISO project`
 - Within `Settings` -> `Teams` -> Create a new team: `leadership` and attach the `CISO project` to it.
