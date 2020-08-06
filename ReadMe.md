@@ -10,7 +10,7 @@
 1. [Chef Automate Setup](./instructions/A2_setup.md)
 2. [Modifying Project View](./instructions/A2_projectview.md)
 3. [API connectivity](./instructions/A2_api.md)
-4. [Final A2 Setup](.instructions//A2_finalsetup.md)
+4. [Final A2 Setup](./instructions//A2_finalsetup.md)
   
   
 Result:  
